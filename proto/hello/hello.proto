@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package="github.com/mojtaba_Sx/general-proto/protogen/go/hello";
+option go_package="github.com/Mojtaba-SX/general-proto/protogen/go/hello";
 
 
 message HelloRequest {
