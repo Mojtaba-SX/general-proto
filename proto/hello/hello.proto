@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package="github.com/mojtaba_Sx/general-proto/protogen/go/hello";
+
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloResponse {
+  string greet = 1;
+}
+
+service HelloService {
+  rpc SayHello(HelloRequest) returns (HelloResponse);
+}
